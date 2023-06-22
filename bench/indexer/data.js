@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687453370883,
+  "lastUpdate": 1687453719479,
   "repoUrl": "https://github.com/MystenLabs/sui",
   "entries": {
     "Benchmark": [
@@ -14435,6 +14435,42 @@ window.BENCHMARK_DATA = {
             "name": "get_checkpoint",
             "value": 323700,
             "range": "± 23685",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "103447440+mystenmark@users.noreply.github.com",
+            "name": "Mark Logan",
+            "username": "mystenmark"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b8bab73e83926880d9c5cc141ca8f3d4924e381",
+          "message": "Remove unused module (#12615)",
+          "timestamp": "2023-06-22T09:57:02-07:00",
+          "tree_id": "fadcd5453c9b9235e2fc46208356d34d77598620",
+          "url": "https://github.com/MystenLabs/sui/commit/0b8bab73e83926880d9c5cc141ca8f3d4924e381"
+        },
+        "date": 1687453698909,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "persist_checkpoint",
+            "value": 158464754,
+            "range": "± 4561807",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "get_checkpoint",
+            "value": 389869,
+            "range": "± 51778",
             "unit": "ns/iter"
           }
         ]
